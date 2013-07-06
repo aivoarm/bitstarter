@@ -1,6 +1,12 @@
 $(document).ready(function(){
 
-$(".about").text("US");
+$(".about").on("click", function(){
+  
+  $(this).text("US");
+  
+});
+
+
 
 
 });
